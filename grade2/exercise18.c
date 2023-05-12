@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int res;
+
+    printf("整数を入力してください。\n");
+
+    scanf("%d", &res);
+
+    switch (res)
+    {
+    case 1:
+        printf("1が入力されました。\n");
+    case 2:
+        printf("2が入力されました。\n");
+    default:
+        printf("1か2を入力してください。\n");
+    }
+
+    return 0;
+}
