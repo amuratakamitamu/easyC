@@ -42,3 +42,5 @@ void sort3(int *n1, int *n2, int *n3)
     if (*n1 > *n2)
         swap(n1, n2);
 }
+
+// tempへxが、xへyが、yへtempへ順番に参照渡しが行われる。よってxとyを入れ替える操作が行われる。
